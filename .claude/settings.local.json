@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(pip install:*)",
+      "Bash(find C:UsersiamluDocumentssite-ebook -maxdepth 2 -type f \\\\\\(-name *.json -o -name *.js -o -name *.ts -o -name *.yml -o -name *.yaml \\\\\\))",
+      "Bash(find C:UsersiamluDocumentssite-ebook -type f -name *)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
